@@ -49,8 +49,3 @@ averages <- aggregate(data_agg, by=list(actvity=data$activity, subject_id=data$s
 
 ## Produce a tidy data set
 write.table(averages, file="tidydata.txt")
-
-## Write a CodeBook.md file describing the variables, data, and
-##      transformations/work performed on cleaning up the data
-
-## Write a README.md file explaining how the script works in GitHub Repo
