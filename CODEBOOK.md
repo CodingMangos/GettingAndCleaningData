@@ -3,7 +3,7 @@ GettingAndCleaningData
 
 Data Specialization: Getting and Cleaning Data: Peer Assessment
 
-Activities: "activities" variable contains 6 activities including
+Activities: "activities" variable contains 6 activities including...
 - WALKING
 - WALKING_UPSTAIRS
 - WALKING_DOWNSTAIRS
@@ -11,8 +11,7 @@ Activities: "activities" variable contains 6 activities including
 - STANDING
 - LAYING
 
-Particants: 
-- "subject_id" variable contains numerical ids from 1 to 30
+Particants: "subject_id" variable contains numerical ids from 1 to 30
 
 Measurements:
 - "tBodyAcc-mean()-X"           
@@ -81,3 +80,7 @@ Measurements:
 - "fBodyBodyGyroMag-std()"     
 - "fBodyBodyGyroJerkMag-mean()" 
 - "fBodyBodyGyroJerkMag-std()" 
+
+Notes on Measurements:
+- As described in the "feautres_info.txt" file from the UCR HAR Dataset directory, these variables come from the "accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ". Note that the "t" denotes time and the XYZ are represent the X, Y, and Z axis from which the measurements are taken.
+- The measurements recorded in this tidy dataset are the averages of each of these variables.

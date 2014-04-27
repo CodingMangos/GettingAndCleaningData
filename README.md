@@ -13,7 +13,6 @@ Purpose:
 
 ===============================================================================
 Procedures:
-===============================================================================
 
 Loading datasets from the UCI HAR Dataset with read.table
 - features.txt provides the names of the 561 variable, of which we will only use 66 
@@ -36,7 +35,7 @@ Pre-processing:
 
 
 ===============================================================================
-
 Notes:
+
 - For each measurement (e.g. tBodyAcc) both the mean and standard deviation is included
 - The average of each variable is given, and grouped by the 6 activities that the Samsung researchers recordered 30 participants doing while carrying their smartphone 
